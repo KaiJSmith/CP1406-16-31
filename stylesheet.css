@@ -1,0 +1,73 @@
+html {
+	font-style: arial;
+}
+
+body {
+	background-color: light-grey;
+	top: 0;
+    position: relative;
+}
+
+#Main-Container {
+	background-color: rgba(214,235,255,1);
+	width: 1700px;
+	height: 1200px;
+	margin:0 auto;
+}
+
+#Head-Container {
+	background-color: none;
+	width: 1700px;
+	height: 140px;
+}
+
+#Banner {
+	background-color: black;
+	width: 1700px;
+	height: 100px;
+}
+
+#Nav-Bar {
+	background-color: grey;
+	width: 1700px;
+	height: 40px;
+	margin: -10px -10px -10px 0px;
+}
+
+#Content-Container {
+	background-color: rgba(120,170,216,1);
+	width: 1180px;
+	height: 1000px;
+	margin: auto;
+} 
+
+#NewsEvents {
+	background-color: rgba(84,140,191,1);
+	width: 1160px;
+	height: 400px;
+	margin: 10px;
+	float: left;
+}
+
+#NewsEvents2 {
+	background-color: rgba(84,140,191,1);
+	width: 570px;
+	height: 500px;
+	margin: 10px;
+	float: left;
+}
+
+#NewsEvents3 {
+	background-color: rgba(84,140,191,1);
+	width: 570px;
+	height: 500px;
+	margin: 10px;
+	float: right;
+}
+
+#Footer {
+	background-color: rgba(84,140,191,1);
+	width: 1700px;
+	height: 50px;
+	margin: 10px 10px 0px 0px;
+}
