@@ -199,3 +199,62 @@ h4 {
 	float: left;
 	text-align: center;
 }
+/* CSS for Text heavy pages (history page) */
+#Content-Container-History {
+	background-color: rgba(247,231,180,1);
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+} 
+
+#Image-Box {
+	background-color: rgba(0,133,255,0.50);
+	width: 400px;
+	height: 200px;
+	margin-top: -590px;
+	margin-right: 40px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: right;
+	opacity: 0.5;
+}
+
+#History-Header {
+	width: 960px;
+	height: 40px;
+	background-color: rgba(128,128,128,1);
+	margin-top: -20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#History-Body {
+	background-color: rgba(84,140,191,0.5);
+	width: 960px;
+	height: 630px;
+	margin: 20px;
+	float: left;
+}
+
+#TextBox-1 {
+	background-color: rgba(84,140,191,0.5);
+	width: 500px;
+	height: 200px;
+	margin: 20px;
+	float: left;
+	text-align: left;
+}
+
+#TextBox-2 {
+	background-color: rgba(84,140,191,0.5);
+	width: 920px;
+	height: 300px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+	text-align: left;
+}
