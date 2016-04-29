@@ -41,7 +41,7 @@ h4 {
 	width: 1200px;
 	height: 100px;
 }
-
+ 
 #Nav-Bar {
 	background-color: rgba(104,196,175,1);
 	width: 1200px;
@@ -127,6 +127,7 @@ h4 {
 	float: left;
 }
 
+-->Home<--
 #NewsHeader {
 	width: 450px;
 	height: 40px;
@@ -199,7 +200,8 @@ h4 {
 	float: left;
 	text-align: center;
 }
-/* CSS for Text heavy pages (history page) */
+
+v/* CSS for Text heavy pages (history page) */
 #Content-Container-History {
 	background-color: rgba(247,231,180,1);
 	width: 1000px;
@@ -208,15 +210,14 @@ h4 {
 } 
 
 #Image-Box {
-	background-color: rgba(0,133,255,0.50);
+	background-image: url("imgbox1.jpg");
 	width: 400px;
 	height: 200px;
 	margin-top: -590px;
-	margin-right: 40px;
+	margin-right: 240px;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	float: right;
-	opacity: 0.5;
 }
 
 #History-Header {
@@ -259,31 +260,60 @@ h4 {
 	text-align: left;
 }
 
-/* CSS for Newsletter webpage */
-
-#newsletters-box {
-	background-color: rgba(84,140,191,0.5);
-	width: 920px;
-	height: 100px;
-	margin: 20px;
-	float: left;
+#Media {
+	width: 980px;
+	height: 730px;
+	background-color: rgba(128,128,128,0.5);
+	margin: 10px;
 	text-align: center;
+	float: left;
 }
 
-#newsletters-box-2 {
-	background-color: red;
-	width: 920px;
-	height: 190px;
-	margin: 20px;
-	float: left;
+#MediaHead {
+	width: 980px;
+	height: 40px;
+	background-color: rgba(128,128,128,0.5);
 	text-align: center;
+	padding-top: 10px;
 }
 
-#newsletters-box-3 {
-	background-color: yellow;
-	width: 920px;
-	height: 180px;
-	margin: 20px;
+#MediaHead > h2 {
+	margin: 0px;
+}
+
+#MediaNews {
+	width: 600px;
+	height: 70px;
+	background-color: rgba(247,231,180,1);
+	margin: 20px 0px 0px 190px;
+}
+
+#MediaGallery {
+	width: 600px;
+	height: 70px;
+	background-color: rgba(247,231,180,1);
+	margin: 20px 0px 0px 190px;
+}
+
+#MediaMailing {
+	width: 600px;
+	height: 70px;
+	background-color: rgba(247,231,180,1);
+	margin: 20px 0px 0px 190px;
+}
+
+#MediaImage {
+	width: 470px;
+	height: 380px;
+	background-image: url("media1.jpg");	
 	float: left;
-	text-align: center;
+	margin: 10px;
+}
+
+#MediaImage2 {
+	width: 470px;
+	height: 380px;
+	background-image: url("media2.jpg");	
+	float: left;
+	margin: 10px;
 }
